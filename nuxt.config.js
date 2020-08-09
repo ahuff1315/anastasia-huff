@@ -92,6 +92,7 @@ export default {
           vue: '#4fc08d',
           sass: '#bf4080',
           node: '#026e00',
+          chart: '#FF6384',
         },
       },
     },
