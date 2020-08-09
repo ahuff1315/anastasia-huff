@@ -41,7 +41,7 @@
         <v-chip class="ma-2" small color="info" outlined>
           Express
         </v-chip>
-        <v-chip class="ma-2" small color="info" outlined>
+        <v-chip class="ma-2" small color="node" outlined>
           Node.js
         </v-chip>
         <v-chip class="ma-2" small color="info" outlined>
