@@ -26,7 +26,7 @@
         Jan 2019 - Present
       </p>
       <div class="pb-4">
-        <v-chip class="ma-2" small color="info" outlined>
+        <v-chip class="ma-2" small color="nuxt" outlined>
           Nuxt.js
         </v-chip>
         <v-chip class="ma-2" small color="info" outlined>
