@@ -48,7 +48,13 @@
           Chart.js
         </v-chip>
       </div>
-      <p class="text-body-1 font-weight-light text--secondary"></p>
+      <p class="text-body-1 font-weight-light text--secondary">
+        This web app focuses on personal finance and provides useful tools and
+        calculators to users who may have questions about their financial
+        situation. These tools give the user a unique look into their finances
+        and use various data visualizations to show breakdowns and highlight
+        important points.
+      </p>
     </div>
     <div class="section-container py-16">
       <h3 class="text-h3 font-weight-light py-4 text--secondary">
