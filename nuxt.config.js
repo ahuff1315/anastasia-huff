@@ -90,6 +90,7 @@ export default {
           nuxt: '#00c58e',
           vuetify: '#1866c1',
           vue: '#4fc08d',
+          sass: '#bf4080',
         },
       },
     },

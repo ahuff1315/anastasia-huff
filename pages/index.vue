@@ -35,7 +35,7 @@
         <v-chip class="ma-2" small color="vue" outlined>
           Vue.js
         </v-chip>
-        <v-chip class="ma-2" small color="info" outlined>
+        <v-chip class="ma-2" small color="sass" outlined>
           Sass
         </v-chip>
         <v-chip class="ma-2" small color="info" outlined>
