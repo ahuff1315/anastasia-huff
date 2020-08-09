@@ -55,6 +55,9 @@
         and use various data visualizations to show breakdowns and highlight
         important points.
       </p>
+      <v-icon disabled>
+        mdi-github
+      </v-icon>
     </div>
     <div class="section-container py-16">
       <h3 class="text-h3 font-weight-light py-4 text--secondary">
