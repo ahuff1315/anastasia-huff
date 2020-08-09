@@ -91,6 +91,7 @@ export default {
           vuetify: '#1866c1',
           vue: '#4fc08d',
           sass: '#bf4080',
+          express: '#757575',
           node: '#026e00',
           chart: '#FF6384',
         },
