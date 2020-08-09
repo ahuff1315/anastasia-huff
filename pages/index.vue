@@ -95,7 +95,7 @@ p {
   width: fit-content;
 }
 .project-highlight:hover {
-  color: #7fb6d9;
+  color: #26a69a;
   transition-property: color;
   transition-duration: 0.5s;
 }
