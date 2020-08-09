@@ -13,15 +13,13 @@
         from Phoenix, Arizona. I currently live and work in Austin, Texas.
       </p>
     </div>
-    <div class="section-container py-16">
-      <h3 class="text-h3 font-weight-light py-4 text--secondary">
-        Current project.
-      </h3>
-      <h5
-        class="text-h5 font-weight-regular py-4 text--primary project-highlight"
-      >
+    <div class="section-container pt-16">
+      <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
+        Current project
+      </p>
+      <h3 class="text-h3 font-weight-regular py-4 text--primary">
         Financially Financed
-      </h5>
+      </h3>
       <p class="text-subtitle-2 font-weight-light text--secondary">
         Jan 2019 - Present
       </p>
@@ -92,14 +90,5 @@ p {
 .section-container {
   max-width: 700px;
   margin: auto;
-}
-.project-highlight {
-  cursor: pointer;
-  width: fit-content;
-}
-.project-highlight:hover {
-  color: #26a69a;
-  transition-property: color;
-  transition-duration: 0.5s;
 }
 </style>
