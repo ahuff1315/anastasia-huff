@@ -23,7 +23,7 @@
         Financially Financed
       </h5>
       <p class="text-subtitle-2 font-weight-light text--secondary">
-        May 2019 - Present
+        Jan 2019 - Present
       </p>
       <div class="pb-4">
         <v-chip class="ma-2" small color="info" outlined>
