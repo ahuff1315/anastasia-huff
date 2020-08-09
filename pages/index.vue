@@ -29,7 +29,7 @@
         <v-chip class="ma-2" small color="nuxt" outlined>
           Nuxt.js
         </v-chip>
-        <v-chip class="ma-2" small color="info" outlined>
+        <v-chip class="ma-2" small color="vuetify" outlined>
           Vuetify
         </v-chip>
         <v-chip class="ma-2" small color="info" outlined>

@@ -19,11 +19,11 @@ export default {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
     meta: [{
-        charset: 'utf-8'
+        charset: 'utf-8',
       },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        content: 'width=device-width, initial-scale=1',
       },
       {
         hid: 'description',
@@ -34,8 +34,8 @@ export default {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
-    }],
+      href: '/favicon.ico',
+    }, ],
   },
   /*
    ** Global CSS
@@ -88,6 +88,7 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
           nuxt: '#00c58e',
+          vuetify: '#1866c1',
         },
       },
     },
