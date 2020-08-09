@@ -89,6 +89,7 @@ export default {
           success: colors.green.accent3,
           nuxt: '#00c58e',
           vuetify: '#1866c1',
+          vue: '#4fc08d',
         },
       },
     },
