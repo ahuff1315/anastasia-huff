@@ -77,7 +77,7 @@
         Jan - June 2018
       </p>
       <div class="pb-4">
-        <v-chip class="ma-2" small outlined>
+        <v-chip class="ma-2" small color="ionic" outlined>
           Ionic
         </v-chip>
         <v-chip class="ma-2" small outlined>

@@ -94,6 +94,7 @@ export default {
           express: '#757575',
           node: '#026e00',
           chart: '#FF6384',
+          ionic: '#3880ff',
         },
       },
     },
