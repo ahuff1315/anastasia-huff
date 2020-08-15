@@ -67,14 +67,12 @@
       </div>
     </div>
     <div class="section-container py-16">
-      <h3 class="text-h3 font-weight-light py-4 text--secondary">
-        Other projects.
-      </h3>
-      <h5
-        class="text-h5 font-weight-regular py-4 text--primary project-highlight"
-      >
+      <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
+        Other projects
+      </p>
+      <h3 class="text-h3 font-weight-regular py-4 text--primary">
         Survey Says
-      </h5>
+      </h3>
     </div>
   </div>
 </template>
