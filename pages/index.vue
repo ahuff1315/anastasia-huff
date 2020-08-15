@@ -94,9 +94,10 @@
         </v-chip>
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
-        This app allows users to create and answer polls that other users have
-        created. These polls can also display different visualizations on the
-        polling data that has been collected.
+        This app allows users to create and answer surveys that other users have
+        created. These surveys can also display different visualizations on the
+        data that has been collected from users that have completed the
+        questionnaire.
       </p>
     </div>
   </div>
