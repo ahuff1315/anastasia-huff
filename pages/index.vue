@@ -78,6 +78,16 @@
           </template>
           <span>Code in private repo</span>
         </v-tooltip>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <div class="ml-4" v-on="on">
+              <v-btn icon>
+                <v-icon>mdi-information-outline</v-icon>
+              </v-btn>
+            </div>
+          </template>
+          <span>More info</span>
+        </v-tooltip>
       </div>
     </div>
     <div class="section-container py-16">
@@ -133,6 +143,16 @@
             </div>
           </template>
           <span>View repo</span>
+        </v-tooltip>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <div class="ml-4" v-on="on">
+              <v-btn icon>
+                <v-icon>mdi-information-outline</v-icon>
+              </v-btn>
+            </div>
+          </template>
+          <span>More info</span>
         </v-tooltip>
       </div>
     </div>
