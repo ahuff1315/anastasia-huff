@@ -76,6 +76,31 @@
       <p class="text-subtitle-2 font-weight-light text--secondary">
         Jan - June 2018
       </p>
+      <div class="pb-4">
+        <v-chip class="ma-2" small outlined>
+          Ionic
+        </v-chip>
+        <v-chip class="ma-2" small outlined>
+          Django
+        </v-chip>
+        <v-chip class="ma-2" small outlined>
+          Angular4
+        </v-chip>
+        <v-chip class="ma-2" small outlined>
+          Bootstrap
+        </v-chip>
+        <v-chip class="ma-2" small outlined>
+          GraphJS
+        </v-chip>
+        <v-chip class="ma-2" small outlined>
+          Plotly
+        </v-chip>
+      </div>
+      <p class="text-body-1 font-weight-light text--secondary">
+        This app allows users to create and answer polls that other users have
+        created. These polls can also display different visualizations on the
+        polling data that has been collected.
+      </p>
     </div>
   </div>
 </template>
