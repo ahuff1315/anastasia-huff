@@ -57,7 +57,11 @@
         <v-tooltip bottom>
           <template v-slot:activator="{ on }">
             <div v-on="on">
-              <v-btn icon to="https://financiallyfinanced.com/" target="_blank">
+              <v-btn
+                icon
+                href="https://financiallyfinanced.com/"
+                target="_blank"
+              >
                 <v-icon>mdi-launch</v-icon>
               </v-btn>
             </div>
