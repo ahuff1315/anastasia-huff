@@ -53,9 +53,18 @@
         and use various data visualizations to show breakdowns and highlight
         important points.
       </p>
-      <v-icon disabled>
-        mdi-github
-      </v-icon>
+      <div class="d-flex">
+        <v-tooltip right>
+          <span>Private repo</span>
+          <template v-slot:activator="{ on }">
+            <div v-on="on">
+              <v-icon disabled>
+                mdi-github
+              </v-icon>
+            </div>
+          </template>
+        </v-tooltip>
+      </div>
     </div>
     <div class="section-container py-16">
       <h3 class="text-h3 font-weight-light py-4 text--secondary">
