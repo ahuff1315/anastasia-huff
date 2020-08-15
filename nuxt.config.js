@@ -97,6 +97,7 @@ export default {
           ionic: '#3880ff',
           django: '#44B78B',
           angular: '#DD0031',
+          bootstrap: '#614092',
         },
       },
     },
