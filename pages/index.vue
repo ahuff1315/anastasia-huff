@@ -113,6 +113,28 @@
         data that has been collected from users that have completed the
         questionnaire.
       </p>
+      <div class="d-flex">
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <div v-on="on">
+              <v-btn disabled icon>
+                <v-icon>mdi-launch</v-icon>
+              </v-btn>
+            </div>
+          </template>
+          <span>No live site</span>
+        </v-tooltip>
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <div class="ml-4" v-on="on">
+              <v-btn icon>
+                <v-icon>mdi-github</v-icon>
+              </v-btn>
+            </div>
+          </template>
+          <span>View repo</span>
+        </v-tooltip>
+      </div>
     </div>
   </div>
 </template>
