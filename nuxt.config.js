@@ -95,6 +95,7 @@ export default {
           node: '#026e00',
           chart: '#FF6384',
           ionic: '#3880ff',
+          django: '#44B78B',
         },
       },
     },

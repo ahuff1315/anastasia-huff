@@ -80,7 +80,7 @@
         <v-chip class="ma-2" small color="ionic" outlined>
           Ionic
         </v-chip>
-        <v-chip class="ma-2" small outlined>
+        <v-chip class="ma-2" small color="django" outlined>
           Django
         </v-chip>
         <v-chip class="ma-2" small outlined>
