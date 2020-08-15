@@ -89,11 +89,8 @@
         <v-chip class="ma-2" small color="bootstrap" outlined>
           Bootstrap
         </v-chip>
-        <v-chip class="ma-2" small outlined>
+        <v-chip class="ma-2" small color="graphjs" outlined>
           GraphJS
-        </v-chip>
-        <v-chip class="ma-2" small outlined>
-          Plotly
         </v-chip>
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
