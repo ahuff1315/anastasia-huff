@@ -73,6 +73,9 @@
       <h3 class="text-h3 font-weight-regular py-4 text--primary">
         Survey Says
       </h3>
+      <p class="text-subtitle-2 font-weight-light text--secondary">
+        Jan - June 2018
+      </p>
     </div>
   </div>
 </template>
