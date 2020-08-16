@@ -7,9 +7,19 @@
         </v-icon>
       </v-btn>
       <div class="section-container">
-        <h1 class="text-h1 py-10">
+        <h1 class="text-h1 pt-10 pb-6">
           Financially Financed
         </h1>
+        <p class="text-h6 font-weight-light text--secondary">
+          Jan 2019 - Present
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          This web app focuses on personal finance and provides useful tools and
+          calculators to users who may have questions about their financial
+          situation. These tools give the user a unique look into their finances
+          and use various data visualizations to show breakdowns and highlight
+          important points.
+        </p>
       </div>
     </div>
   </div>
