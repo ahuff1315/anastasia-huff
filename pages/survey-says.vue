@@ -1,17 +1,32 @@
 <template>
   <div class="main-container py-16">
-    <v-btn @click="$router.go(-1)">
-      Back
-    </v-btn>
-    <div class="section-container" style="height: calc(80vh - 128px);">
-      <h1>Survey Says</h1>
+    <div class="main-opacity" :class="[fadeOutStart ? 'fade-out-start' : '']">
+      <v-btn @click="redirect()">
+        Back
+      </v-btn>
+      <div class="section-container" style="height: calc(80vh - 128px);">
+        <h1>Survey Says</h1>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      fadeOutStart: false,
+    };
+  },
   components: {},
+  methods: {
+    redirect() {
+      this.fadeOutStart = true;
+      setTimeout(() => {
+        this.$router.go(-1);
+      }, 200);
+    },
+  },
 };
 </script>
 
@@ -25,5 +40,21 @@ p {
 .section-container {
   max-width: 700px;
   margin: auto;
+}
+.fade-out-start {
+  transition: opacity 0.2s ease-in;
+  opacity: 0 !important;
+}
+.main-opacity {
+  animation: fadein ease-in-out 0.2s;
+  opacity: 1;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>
