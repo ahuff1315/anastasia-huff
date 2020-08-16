@@ -7,9 +7,18 @@
         </v-icon>
       </v-btn>
       <div class="section-container">
-        <h1 class="text-h1 py-10">
+        <h1 class="text-h1 pt-10 pb-6">
           Survey Says
         </h1>
+        <p class="text-h6 font-weight-light text--secondary">
+          Jan - June 2018
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          This app allows users to create and answer surveys that other users
+          have created. These surveys can also display different visualizations
+          on the data that has been collected from users that have completed the
+          questionnaire.
+        </p>
       </div>
     </div>
   </div>
