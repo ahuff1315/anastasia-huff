@@ -7,7 +7,9 @@
         </v-icon>
       </v-btn>
       <div class="section-container">
-        <h1>Survey Says</h1>
+        <h1 class="text-h1 py-10">
+          Survey Says
+        </h1>
       </div>
     </div>
   </div>
