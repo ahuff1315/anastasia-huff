@@ -1,7 +1,7 @@
 <template>
   <div class="main-container py-16">
     <div class="main-opacity" :class="[fadeOutStart ? 'fade-out-start' : '']">
-      <div class="section-container" style="height: calc(80vh - 128px);">
+      <div class="section-container">
         <h1 class="text-h1 py-4 text--secondary">
           Hi,
         </h1>
@@ -99,7 +99,7 @@
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <div class="ml-4" v-on="on">
-                <v-btn icon>
+                <v-btn @click="() => redirect('financially-financed')" icon>
                   <v-icon>mdi-information-outline</v-icon>
                 </v-btn>
               </div>
@@ -168,18 +168,16 @@
             </template>
             <span>View repo</span>
           </v-tooltip>
-          <keep-alive>
-            <v-tooltip bottom>
-              <template v-slot:activator="{ on }">
-                <div class="ml-4" v-on="on">
-                  <v-btn @click="() => redirect('survey-says')" icon>
-                    <v-icon>mdi-information-outline</v-icon>
-                  </v-btn>
-                </div>
-              </template>
-              <span>More info</span>
-            </v-tooltip>
-          </keep-alive>
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <div class="ml-4" v-on="on">
+                <v-btn @click="() => redirect('survey-says')" icon>
+                  <v-icon>mdi-information-outline</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <span>More info</span>
+          </v-tooltip>
         </div>
       </div>
     </div>
