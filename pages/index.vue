@@ -28,22 +28,37 @@
         </p>
         <div class="pb-4">
           <v-chip class="ma-2" small color="nuxt" outlined>
+            <v-icon small left>
+              mdi-nuxt
+            </v-icon>
             Nuxt.js
           </v-chip>
           <v-chip class="ma-2" small color="vuetify" outlined>
+            <v-icon small left>
+              mdi-vuetify
+            </v-icon>
             Vuetify
           </v-chip>
           <v-chip class="ma-2" small color="vue" outlined>
+            <v-icon small left>
+              mdi-vuejs
+            </v-icon>
             Vue.js
           </v-chip>
           <v-chip class="ma-2" small color="sass" outlined>
+            <v-icon small left>
+              mdi-sass
+            </v-icon>
             Sass
+          </v-chip>
+          <v-chip class="ma-2" small color="node" outlined>
+            <v-icon small left>
+              mdi-nodejs
+            </v-icon>
+            Node.js
           </v-chip>
           <v-chip class="ma-2" small color="express" outlined>
             Express
-          </v-chip>
-          <v-chip class="ma-2" small color="node" outlined>
-            Node.js
           </v-chip>
           <v-chip class="ma-2" small color="chart" outlined>
             Chart.js
@@ -111,9 +126,15 @@
             Django
           </v-chip>
           <v-chip class="ma-2" small color="angular" outlined>
+            <v-icon small left>
+              mdi-angular
+            </v-icon>
             Angular4
           </v-chip>
           <v-chip class="ma-2" small color="bootstrap" outlined>
+            <v-icon small left>
+              mdi-bootstrap
+            </v-icon>
             Bootstrap
           </v-chip>
           <v-chip class="ma-2" small color="graphjs" outlined>
