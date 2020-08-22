@@ -112,8 +112,8 @@
           </v-icon>
           Bootstrap
         </v-chip>
-        <v-chip class="ma-2" small color="graphjs" outlined>
-          GraphJS
+        <v-chip class="ma-2" small color="chart" outlined>
+          Chart.js
         </v-chip>
       </div>
       <p class="text-body-1 font-weight-light text--secondary">

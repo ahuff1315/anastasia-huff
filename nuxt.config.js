@@ -98,7 +98,6 @@ export default {
           django: '#44B78B',
           angular: '#DD0031',
           bootstrap: '#614092',
-          graphjs: '#5D3CF6',
         },
       },
     },
