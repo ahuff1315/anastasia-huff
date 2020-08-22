@@ -110,6 +110,7 @@
           </div>
         </div>
       </div>
+      <v-divider class="mt-16 home-hr"></v-divider>
       <div class="section-container pt-16">
         <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
           Current Project
@@ -118,7 +119,7 @@
           Portfolio Site
         </h3>
         <p class="text-subtitle-2 font-weight-light text--secondary">
-          Aug 2018 - Present
+          Aug 2020 - Present
         </p>
         <div class="pb-4">
           <v-chip class="ma-2 ml-0" small color="nuxt" outlined>
@@ -184,7 +185,7 @@
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <div class="ml-4" v-on="on">
-                <v-btn @click="() => redirect('survey-says')" icon>
+                <v-btn @click="() => redirect('portfolio')" icon>
                   <v-icon>mdi-information-outline</v-icon>
                 </v-btn>
               </div>
@@ -288,4 +289,9 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.home-hr {
+  max-width: 700px;
+  margin: auto;
+}
+</style>
