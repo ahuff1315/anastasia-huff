@@ -8,7 +8,7 @@
         <h3 class="text-h3 font-weight-light py-4 text--secondary">
           My name is Anastasia Huff.
         </h3>
-        <p class="text-h6 font-weight-light text--secondary">
+        <p class="text-h6 font-weight-light text--secondary pb-6">
           I'm a
           <span class="text--primary font-weight-regular">
             software engineer
@@ -16,6 +16,7 @@
           from Phoenix, Arizona. I currently live and work in Austin, Texas.
         </p>
       </div>
+      <v-divider class="mt-16 home-hr"></v-divider>
       <main-project @more-info="redirect($event)" />
       <v-divider class="mt-16 home-hr"></v-divider>
       <div class="section-container pt-16">
