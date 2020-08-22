@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-footer class="py-16" padless>
+    <v-footer class="py-16" elevation="12" padless color="grey darken-4">
       <div class="d-flex flex-column section-container py-10">
         <h3 class="text-h3">
           Questions?
