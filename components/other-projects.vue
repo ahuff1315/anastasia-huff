@@ -42,6 +42,9 @@
           Node.js
         </v-chip>
         <v-chip class="ma-2" small color="express" outlined>
+          <v-icon small left>
+            mdi-alpha-e-circle
+          </v-icon>
           Express
         </v-chip>
       </div>
@@ -95,9 +98,15 @@
       </p>
       <div class="pb-4">
         <v-chip class="ma-2 ml-0" small color="ionic" outlined>
+          <v-icon small left>
+            mdi-atom-variant
+          </v-icon>
           Ionic
         </v-chip>
         <v-chip class="ma-2" small color="django" outlined>
+          <v-icon small left>
+            mdi-alpha-d-circle
+          </v-icon>
           Django
         </v-chip>
         <v-chip class="ma-2" small color="angular" outlined>
@@ -113,6 +122,9 @@
           Bootstrap
         </v-chip>
         <v-chip class="ma-2" small color="chart" outlined>
+          <v-icon small left>
+            mdi-chart-areaspline
+          </v-icon>
           Chart.js
         </v-chip>
       </div>

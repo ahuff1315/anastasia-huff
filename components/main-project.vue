@@ -42,9 +42,15 @@
           Node.js
         </v-chip>
         <v-chip class="ma-2" small color="express" outlined>
+          <v-icon small left>
+            mdi-alpha-e-circle
+          </v-icon>
           Express
         </v-chip>
         <v-chip class="ma-2" small color="chart" outlined>
+          <v-icon small left>
+            mdi-chart-areaspline
+          </v-icon>
           Chart.js
         </v-chip>
       </div>
