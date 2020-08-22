@@ -19,7 +19,7 @@
       <v-divider class="mt-16 home-hr"></v-divider>
       <main-project @more-info="redirect($event)" />
       <v-divider class="mt-16 home-hr"></v-divider>
-      <other-projects @more-info="redirect($event)" />
+      <other-projects @more-info="redirect($event)" class="pb-10" />
     </div>
   </div>
 </template>
