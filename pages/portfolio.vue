@@ -14,10 +14,10 @@
           Aug 2020 - Present
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
-          This app allows users to create and answer surveys that other users
-          have created. These surveys can also display different visualizations
-          on the data that has been collected from users that have completed the
-          questionnaire.
+          This site is for displaying some of my personal projects. Financially
+          Financed has a live site that users can visit while the other projects
+          have links to Github to view the code. More detailed information can
+          found on the individual project pages.
         </p>
       </div>
     </div>

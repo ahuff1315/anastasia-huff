@@ -49,9 +49,10 @@
         </v-chip>
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
-        The site you are on right now. This app allows users to create and
-        answer surveys that other users have created. These surveys can also
-        display different visualizations on the data that has been collected.
+        This site is for displaying some of my personal projects. My current
+        project has a live site that users can visit while the other projects
+        have links to Github to view the code. More detailed information can be
+        found on the individual project pages.
       </p>
       <div class="d-flex">
         <v-tooltip bottom>
