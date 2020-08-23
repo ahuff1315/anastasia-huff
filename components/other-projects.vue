@@ -23,31 +23,31 @@
           </v-icon>
           Nuxt.js
         </v-chip>
-        <v-chip class="ma-2" small color="vuetify" outlined>
+        <v-chip class="ma-2 ml-0" small color="vuetify" outlined>
           <v-icon small left>
             mdi-vuetify
           </v-icon>
           Vuetify
         </v-chip>
-        <v-chip class="ma-2" small color="vue" outlined>
+        <v-chip class="ma-2 ml-0" small color="vue" outlined>
           <v-icon small left>
             mdi-vuejs
           </v-icon>
           Vue.js
         </v-chip>
-        <v-chip class="ma-2" small color="sass" outlined>
+        <v-chip class="ma-2 ml-0" small color="sass" outlined>
           <v-icon small left>
             mdi-sass
           </v-icon>
           Sass
         </v-chip>
-        <v-chip class="ma-2" small color="node" outlined>
+        <v-chip class="ma-2 ml-0" small color="node" outlined>
           <v-icon small left>
             mdi-nodejs
           </v-icon>
           Node.js
         </v-chip>
-        <v-chip class="ma-2" small color="express" outlined>
+        <v-chip class="ma-2 ml-0" small color="express" outlined>
           <v-icon small left>
             mdi-alpha-e-circle
           </v-icon>
@@ -110,25 +110,25 @@
           </v-icon>
           Ionic
         </v-chip>
-        <v-chip class="ma-2" small color="django" outlined>
+        <v-chip class="ma-2 ml-0" small color="django" outlined>
           <v-icon small left>
             mdi-alpha-d-circle
           </v-icon>
           Django
         </v-chip>
-        <v-chip class="ma-2" small color="angular" outlined>
+        <v-chip class="ma-2 ml-0" small color="angular" outlined>
           <v-icon small left>
             mdi-angular
           </v-icon>
           Angular4
         </v-chip>
-        <v-chip class="ma-2" small color="bootstrap" outlined>
+        <v-chip class="ma-2 ml-0" small color="bootstrap" outlined>
           <v-icon small left>
             mdi-bootstrap
           </v-icon>
           Bootstrap
         </v-chip>
-        <v-chip class="ma-2" small color="chart" outlined>
+        <v-chip class="ma-2 ml-0" small color="chart" outlined>
           <v-icon small left>
             mdi-chart-areaspline
           </v-icon>
