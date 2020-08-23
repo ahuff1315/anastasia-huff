@@ -13,6 +13,10 @@
         <p class="text-h6 font-weight-light text--secondary">
           Jan 2019 - Present
         </p>
+        <v-img
+          class="rounded my-10 py-6"
+          src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg"
+        />
         <p class="text-body-1 font-weight-light text--secondary">
           This web app focuses on personal finance and provides useful tools and
           calculators to users who may have questions about their financial
