@@ -11,11 +11,17 @@
         Jan 2019 - Present
       </p>
       <div class="pb-4">
+        <v-chip class="ma-2 ml-0" small color="javascript" outlined>
+          <v-icon small left>
+            mdi-language-javascript
+          </v-icon>
+          JS
+        </v-chip>
         <v-chip class="ma-2 ml-0" small color="nuxt" outlined>
           <v-icon small left>
             mdi-nuxt
           </v-icon>
-          Nuxt.js
+          Nuxt
         </v-chip>
         <v-chip class="ma-2" small color="vuetify" outlined>
           <v-icon small left>
@@ -27,7 +33,7 @@
           <v-icon small left>
             mdi-vuejs
           </v-icon>
-          Vue.js
+          Vue
         </v-chip>
         <v-chip class="ma-2" small color="sass" outlined>
           <v-icon small left>
@@ -39,7 +45,7 @@
           <v-icon small left>
             mdi-nodejs
           </v-icon>
-          Node.js
+          Node
         </v-chip>
         <v-chip class="ma-2" small color="express" outlined>
           <v-icon small left>

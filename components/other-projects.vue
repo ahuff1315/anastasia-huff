@@ -11,6 +11,12 @@
         Aug 2020 - Present
       </p>
       <div class="pb-4">
+        <v-chip class="ma-2 ml-0" small color="javascript" outlined>
+          <v-icon small left>
+            mdi-language-javascript
+          </v-icon>
+          JS
+        </v-chip>
         <v-chip class="ma-2 ml-0" small color="nuxt" outlined>
           <v-icon small left>
             mdi-nuxt
