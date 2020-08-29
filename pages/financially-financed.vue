@@ -95,7 +95,7 @@
             </p>
           </div>
         </v-stepper> -->
-        <image-stepper />
+        <image-stepper :steps="7" />
       </div>
     </div>
   </div>

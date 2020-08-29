@@ -64,6 +64,12 @@
 
 <script>
 export default {
+  props: {
+    steps: {
+      type: Number,
+      default: 1,
+    },
+  },
   data() {
     return {
       step: 1,
