@@ -79,7 +79,7 @@
               step="7"
             ></v-stepper-step>
           </div>
-          <div class="d-flex flex-column px-6 full-width">
+          <div class="d-flex flex-column px-4 full-width">
             <v-img :aspect-ratio="19 / 9" :key="imageSrc" :src="imageSrc">
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
@@ -152,7 +152,6 @@ export default {
   components: {},
   computed: {
     imageSrc() {
-      console.log(this.step);
       return this.images[this.step - 1].src;
     },
     imageCaption() {
