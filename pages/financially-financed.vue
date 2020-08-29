@@ -32,6 +32,32 @@
           About this project
         </h3>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
+        <h3 class="text-h4">
+          Images
+        </h3>
+        <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
+        <v-stepper class="d-flex transparent" v-model="e1" vertical non-linear>
+          <div class="d-inline-flex flex-column">
+            <v-stepper-step editable step="1"></v-stepper-step>
+            <v-stepper-step editable step="2"></v-stepper-step>
+            <v-stepper-step editable step="3"></v-stepper-step>
+            <v-stepper-step editable step="4"></v-stepper-step>
+          </div>
+          <div class="d-flex flex-column pa-6">
+            <!-- <v-stepper-content class="pa-6 ma-0 no-border" step="1"> -->
+            {{ stepperContent }}
+            <!-- </v-stepper-content> -->
+            <!-- <v-stepper-content class="pa-6 ma-0 no-border" step="2">
+              Test2
+            </v-stepper-content>
+            <v-stepper-content class="pa-6 ma-0 no-border" step="3">
+              Test3
+            </v-stepper-content>
+            <v-stepper-content class="pa-6 ma-0 no-border" step="4">
+              Test4
+            </v-stepper-content> -->
+          </div>
+        </v-stepper>
       </div>
     </div>
   </div>
@@ -42,9 +68,16 @@ export default {
   data() {
     return {
       fadeOutStart: false,
+      e1: 1,
     };
   },
   components: {},
+  computed: {
+    stepperContent() {
+      console.log(this.e1);
+      return `Test ${this.e1}`;
+    },
+  },
   methods: {
     redirect() {
       this.fadeOutStart = true;
@@ -56,4 +89,8 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.no-border {
+  border: none;
+}
+</style>
