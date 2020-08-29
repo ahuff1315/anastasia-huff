@@ -36,7 +36,7 @@
           Images
         </h3>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
-        <v-stepper
+        <!-- <v-stepper
           class="d-flex transparent elevation-0 pt-10"
           v-model="step"
           vertical
@@ -94,13 +94,16 @@
               {{ imageCaption }}
             </p>
           </div>
-        </v-stepper>
+        </v-stepper> -->
+        <image-stepper />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import imageStepper from '@/components/image-stepper.vue';
+
 export default {
   data() {
     return {
@@ -149,7 +152,9 @@ export default {
       ],
     };
   },
-  components: {},
+  components: {
+    imageStepper,
+  },
   computed: {
     imageSrc() {
       return this.images[this.step - 1].src;
