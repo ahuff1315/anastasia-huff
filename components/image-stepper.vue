@@ -2,45 +2,17 @@
   <div>
     <v-stepper
       class="d-flex transparent elevation-0 pt-10"
-      v-model="step"
+      v-model="currentStep"
       vertical
       non-linear
     >
       <div class="d-inline-flex flex-column">
         <v-stepper-step
+          v-for="step in steps"
+          :key="step"
           class="pl-4 py-2 pr-1 mb-2 rounded transparent"
           editable
-          step="1"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="2"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="3"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="4"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="5"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="6"
-        ></v-stepper-step>
-        <v-stepper-step
-          class="pl-4 py-2 pr-1 mb-2 rounded"
-          editable
-          step="7"
+          :step="step"
         ></v-stepper-step>
       </div>
       <div class="d-flex flex-column px-4 full-width">
@@ -72,7 +44,7 @@ export default {
   },
   data() {
     return {
-      step: 1,
+      currentStep: 1,
       images: [
         {
           detail:
@@ -119,10 +91,10 @@ export default {
   components: {},
   computed: {
     imageSrc() {
-      return this.images[this.step - 1].src;
+      return this.images[this.currentStep - 1].src;
     },
     imageCaption() {
-      return this.images[this.step - 1].detail;
+      return this.images[this.currentStep - 1].detail;
     },
   },
   methods: {},
