@@ -80,7 +80,19 @@
             ></v-stepper-step>
           </div>
           <div class="d-flex flex-column px-6 full-width">
-            <v-img :aspect-ratio="19 / 9" :src="imageSrc"></v-img>
+            <v-img :aspect-ratio="19 / 9" :key="imageSrc" :src="imageSrc">
+              <template v-slot:placeholder>
+                <v-row class="fill-height ma-0" align="center" justify="center">
+                  <v-progress-circular
+                    indeterminate
+                    color="grey lighten-5"
+                  ></v-progress-circular>
+                </v-row>
+              </template>
+            </v-img>
+            <p class="text-caption mb-0 pa-1">
+              {{ imageCaption }}
+            </p>
           </div>
         </v-stepper>
       </div>
@@ -96,37 +108,41 @@ export default {
       step: 1,
       images: [
         {
-          detail: '',
+          detail:
+            'The latest post component displaying details about the most recent calculator or post.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598737296/portfolio/financially-financed-latest-post_glzcas.png',
         },
         {
-          detail: '',
+          detail: 'Some of the current posts on the posts page.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598737393/portfolio/financially-financed-posts_hlak7y.png',
         },
         {
-          detail: '',
+          detail: 'The compound interest goal calculator value tab.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598736416/portfolio/financially-financed-ci-goal1_ns3fgf.png',
         },
         {
-          detail: '',
+          detail:
+            'The compound interest goal calculator yearly tab and data visualization.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598736423/portfolio/financially-financed-ci-goal2_jjwwcy.png',
         },
         {
-          detail: '',
+          detail:
+            'Compound interest goal calculator advanced options with age entered.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598736428/portfolio/financially-financed-ci-goal3_qhqtnj.png',
         },
         {
-          detail: '',
+          detail:
+            'Compound interest goal calculator advanced options with investment growth rate adjusted.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598736432/portfolio/financially-financed-ci-goal4_t0ovhe.png',
         },
         {
-          detail: '',
+          detail: 'Compound interest timespan calculator value tab.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg',
         },
@@ -138,6 +154,9 @@ export default {
     imageSrc() {
       console.log(this.step);
       return this.images[this.step - 1].src;
+    },
+    imageCaption() {
+      return this.images[this.step - 1].detail;
     },
   },
   methods: {
