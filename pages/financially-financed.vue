@@ -36,66 +36,7 @@
           Images
         </h3>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
-        <!-- <v-stepper
-          class="d-flex transparent elevation-0 pt-10"
-          v-model="step"
-          vertical
-          non-linear
-        >
-          <div class="d-inline-flex flex-column">
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded transparent"
-              editable
-              step="1"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="2"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="3"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="4"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="5"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="6"
-            ></v-stepper-step>
-            <v-stepper-step
-              class="pl-4 py-2 pr-1 mb-2 rounded"
-              editable
-              step="7"
-            ></v-stepper-step>
-          </div>
-          <div class="d-flex flex-column px-4 full-width">
-            <v-img :aspect-ratio="19 / 9" :key="imageSrc" :src="imageSrc">
-              <template v-slot:placeholder>
-                <v-row class="fill-height ma-0" align="center" justify="center">
-                  <v-progress-circular
-                    indeterminate
-                    color="grey lighten-5"
-                  ></v-progress-circular>
-                </v-row>
-              </template>
-            </v-img>
-            <p class="text-caption mb-0 pa-1">
-              {{ imageCaption }}
-            </p>
-          </div>
-        </v-stepper> -->
-        <image-stepper :steps="7" />
+        <image-stepper :steps="7" :images="images" />
       </div>
     </div>
   </div>
