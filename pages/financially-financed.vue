@@ -169,8 +169,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.no-border {
-  border: none;
-}
-</style>
+<style lang="scss"></style>
