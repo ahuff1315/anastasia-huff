@@ -49,7 +49,6 @@ export default {
   data() {
     return {
       fadeOutStart: false,
-      step: 1,
       images: [
         {
           detail:
@@ -96,14 +95,7 @@ export default {
   components: {
     imageStepper,
   },
-  computed: {
-    imageSrc() {
-      return this.images[this.step - 1].src;
-    },
-    imageCaption() {
-      return this.images[this.step - 1].detail;
-    },
-  },
+  computed: {},
   methods: {
     redirect() {
       this.fadeOutStart = true;
