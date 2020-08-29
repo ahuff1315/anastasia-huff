@@ -31,7 +31,7 @@
         <h3 class="text-h4">
           About this project
         </h3>
-        <p class="text-body-1 font-weight-light text--secondary"></p>
+        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
       </div>
     </div>
   </div>
