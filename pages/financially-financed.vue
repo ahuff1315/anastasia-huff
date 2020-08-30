@@ -24,6 +24,7 @@
         <h3 class="text-h4">
           Technologies
         </h3>
+        <tech-chips :technologies="technologies" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <h3 class="text-h4">
           About this project
@@ -37,11 +38,22 @@
 
 <script>
 import imageCarousel from '@/components/image-carousel.vue';
+import techChips from '@/components/tech-chips.vue';
 
 export default {
   data() {
     return {
       fadeOutStart: false,
+      technologies: [
+        'js',
+        'nuxt',
+        'vuetify',
+        'vue',
+        'sass',
+        'node',
+        'express',
+        'chart',
+      ],
       images: [
         {
           detail: 'test',
@@ -92,6 +104,7 @@ export default {
   },
   components: {
     imageCarousel,
+    techChips,
   },
   computed: {},
   methods: {
