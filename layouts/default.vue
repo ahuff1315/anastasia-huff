@@ -1,8 +1,10 @@
 <template>
-  <v-app dark>
-    <nuxt class="main-background" />
-    <ana-footer />
-  </v-app>
+  <div class="my-app">
+    <v-app dark>
+      <nuxt class="main-background" />
+      <ana-footer />
+    </v-app>
+  </div>
 </template>
 
 <script>
