@@ -1,5 +1,19 @@
 <template>
-  <div></div>
+  <div>
+    <v-chip
+      class="ma-2 ml-0"
+      v-for="(tech, i) in technologies"
+      :key="i"
+      :color="techDetails[tech].color"
+      small
+      outlined
+    >
+      <v-icon small left>
+        {{ techDetails[tech].icon }}
+      </v-icon>
+      {{ tech }}
+    </v-chip>
+  </div>
 </template>
 
 <script>
