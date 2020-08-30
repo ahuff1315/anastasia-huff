@@ -59,6 +59,22 @@ export default {
           icon: 'mdi-chart-areaspline',
           color: 'chart',
         },
+        Ionic: {
+          icon: 'mdi-atom-variant',
+          color: 'ionic',
+        },
+        Django: {
+          icon: 'mdi-alpha-d-circle',
+          color: 'django',
+        },
+        Angular4: {
+          icon: 'mdi-angular',
+          color: 'angular',
+        },
+        Bootstrap: {
+          icon: 'mdi-bootstrap',
+          color: 'bootstrap',
+        },
       },
     };
   },
