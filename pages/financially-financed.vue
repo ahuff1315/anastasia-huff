@@ -24,7 +24,7 @@
         <h3 class="text-h4">
           Technologies
         </h3>
-        <tech-chips :technologies="technologies" />
+        <tech-chips :technologies="tech" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <h3 class="text-h4">
           About this project
@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       fadeOutStart: false,
-      technologies: [
+      tech: [
         'JS',
         'Nuxt',
         'Vuetify',
