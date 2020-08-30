@@ -44,6 +44,11 @@ export default {
       fadeOutStart: false,
       images: [
         {
+          detail: 'test',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598820969/portfolio/financially-financed-dark-transparent_i2hpna.png',
+        },
+        {
           detail: 'Compound interest timespan calculator value tab.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg',
