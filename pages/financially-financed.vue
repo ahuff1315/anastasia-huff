@@ -36,14 +36,14 @@
           Images
         </h3>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
-        <image-stepper :steps="7" :images="images" />
+        <image-carousel :steps="7" :images="images" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import imageStepper from '@/components/image-stepper.vue';
+import imageCarousel from '@/components/image-carousel.vue';
 
 export default {
   data() {
@@ -93,7 +93,7 @@ export default {
     };
   },
   components: {
-    imageStepper,
+    imageCarousel,
   },
   computed: {},
   methods: {
