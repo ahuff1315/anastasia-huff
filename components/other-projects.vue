@@ -63,42 +63,7 @@
         Jan - June 2018
       </p>
       <div class="pb-4">
-        <v-chip class="ma-2 ml-0" small color="javascript" outlined>
-          <v-icon small left>
-            mdi-language-javascript
-          </v-icon>
-          JS
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="ionic" outlined>
-          <v-icon small left>
-            mdi-atom-variant
-          </v-icon>
-          Ionic
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="django" outlined>
-          <v-icon small left>
-            mdi-alpha-d-circle
-          </v-icon>
-          Django
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="angular" outlined>
-          <v-icon small left>
-            mdi-angular
-          </v-icon>
-          Angular4
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="bootstrap" outlined>
-          <v-icon small left>
-            mdi-bootstrap
-          </v-icon>
-          Bootstrap
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="chart" outlined>
-          <v-icon small left>
-            mdi-chart-areaspline
-          </v-icon>
-          Chart.js
-        </v-chip>
+        <tech-chips :technologies="surveyTech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
         This app allows users to create and answer surveys that other users have
@@ -157,7 +122,14 @@ export default {
         'Node',
         'Express',
       ],
-      surveyTech: [],
+      surveyTech: [
+        'JS',
+        'Ionic',
+        'Django',
+        'Angular4',
+        'Bootstrap',
+        'Chart.js',
+      ],
     };
   },
   components: {
