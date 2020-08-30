@@ -23,29 +23,16 @@
 <script>
 export default {
   props: {
-    steps: {
-      type: Number,
-      default: 1,
-    },
     images: {
       type: Array,
       default: () => [],
     },
   },
   data() {
-    return {
-      currentStep: 1,
-    };
+    return {};
   },
   components: {},
-  computed: {
-    imageSrc() {
-      return this.images[this.currentStep - 1].src;
-    },
-    imageCaption() {
-      return this.images[this.currentStep - 1].detail;
-    },
-  },
+  computed: {},
   methods: {},
 };
 </script>

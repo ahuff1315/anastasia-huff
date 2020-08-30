@@ -36,7 +36,7 @@
           Images
         </h3>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
-        <image-carousel :steps="7" :images="images" />
+        <image-carousel :images="images" />
       </div>
     </div>
   </div>
