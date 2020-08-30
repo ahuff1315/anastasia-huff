@@ -45,14 +45,14 @@ export default {
     return {
       fadeOutStart: false,
       technologies: [
-        'js',
-        'nuxt',
-        'vuetify',
-        'vue',
-        'sass',
-        'node',
-        'express',
-        'chart',
+        'JS',
+        'Nuxt',
+        'Vuetify',
+        'Vue',
+        'Sass',
+        'Node',
+        'Express',
+        'Chart.js',
       ],
       images: [
         {
