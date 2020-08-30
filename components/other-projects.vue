@@ -11,48 +11,7 @@
         Aug 2020 - Present
       </p>
       <div class="pb-4">
-        <v-chip class="ma-2 ml-0" small color="javascript" outlined>
-          <v-icon small left>
-            mdi-language-javascript
-          </v-icon>
-          JS
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="nuxt" outlined>
-          <v-icon small left>
-            mdi-nuxt
-          </v-icon>
-          Nuxt.js
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="vuetify" outlined>
-          <v-icon small left>
-            mdi-vuetify
-          </v-icon>
-          Vuetify
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="vue" outlined>
-          <v-icon small left>
-            mdi-vuejs
-          </v-icon>
-          Vue.js
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="sass" outlined>
-          <v-icon small left>
-            mdi-sass
-          </v-icon>
-          Sass
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="node" outlined>
-          <v-icon small left>
-            mdi-nodejs
-          </v-icon>
-          Node.js
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="express" outlined>
-          <v-icon small left>
-            mdi-alpha-e-circle
-          </v-icon>
-          Express
-        </v-chip>
+        <tech-chips :technologies="portfolioTech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
         This site is for displaying some of my personal projects. My current
@@ -184,11 +143,26 @@
 </template>
 
 <script>
+import techChips from '@/components/tech-chips.vue';
+
 export default {
   data() {
-    return {};
+    return {
+      portfolioTech: [
+        'JS',
+        'Nuxt',
+        'Vuetify',
+        'Vue',
+        'Sass',
+        'Node',
+        'Express',
+      ],
+      surveyTech: [],
+    };
   },
-  components: {},
+  components: {
+    techChips,
+  },
   methods: {},
 };
 </script>
