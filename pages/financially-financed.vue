@@ -13,10 +13,7 @@
         <p class="text-h6 font-weight-light text--secondary">
           Jan 2019 - Present
         </p>
-        <v-img
-          class="rounded my-10 py-6"
-          src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg"
-        />
+        <image-carousel class="my-10 py-6" :images="images" />
         <!-- <p class="text-body-1 font-weight-light text--secondary">
           This web app focuses on personal finance and provides useful tools and
           calculators to users who may have questions about their financial
@@ -32,11 +29,7 @@
           About this project
         </h3>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
-        <h3 class="text-h4">
-          Images
-        </h3>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
-        <image-carousel :images="images" />
       </div>
     </div>
   </div>
@@ -50,6 +43,11 @@ export default {
     return {
       fadeOutStart: false,
       images: [
+        {
+          detail: 'Compound interest timespan calculator value tab.',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg',
+        },
         {
           detail:
             'The latest post component displaying details about the most recent calculator or post.',
@@ -83,11 +81,6 @@ export default {
             'Compound interest goal calculator advanced options with investment growth rate adjusted.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598736432/portfolio/financially-financed-ci-goal4_t0ovhe.png',
-        },
-        {
-          detail: 'Compound interest timespan calculator value tab.',
-          src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1598132246/portfolio/financially-financed-dark_tbbuqj.svg',
         },
       ],
     };
