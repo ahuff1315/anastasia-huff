@@ -21,14 +21,14 @@
           and use various data visualizations to show breakdowns and highlight
           important points.
         </p> -->
-        <h3 class="text-h4">
+        <h4 class="text-h4">
           Technologies
-        </h3>
+        </h4>
         <tech-chips :technologies="tech" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
-        <h3 class="text-h4">
+        <h4 class="text-h4">
           About this project
-        </h3>
+        </h4>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
       </div>
