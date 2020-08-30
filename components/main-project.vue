@@ -11,54 +11,7 @@
         Jan 2019 - Present
       </p>
       <div class="pb-4">
-        <v-chip class="ma-2 ml-0" small color="javascript" outlined>
-          <v-icon small left>
-            mdi-language-javascript
-          </v-icon>
-          JS
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="nuxt" outlined>
-          <v-icon small left>
-            mdi-nuxt
-          </v-icon>
-          Nuxt
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="vuetify" outlined>
-          <v-icon small left>
-            mdi-vuetify
-          </v-icon>
-          Vuetify
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="vue" outlined>
-          <v-icon small left>
-            mdi-vuejs
-          </v-icon>
-          Vue
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="sass" outlined>
-          <v-icon small left>
-            mdi-sass
-          </v-icon>
-          Sass
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="node" outlined>
-          <v-icon small left>
-            mdi-nodejs
-          </v-icon>
-          Node
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="express" outlined>
-          <v-icon small left>
-            mdi-alpha-e-circle
-          </v-icon>
-          Express
-        </v-chip>
-        <v-chip class="ma-2 ml-0" small color="chart" outlined>
-          <v-icon small left>
-            mdi-chart-areaspline
-          </v-icon>
-          Chart.js
-        </v-chip>
+        <tech-chips :technologies="tech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
         This web app focuses on personal finance and provides useful tools and
@@ -108,11 +61,26 @@
 </template>
 
 <script>
+import techChips from '@/components/tech-chips.vue';
+
 export default {
   data() {
-    return {};
+    return {
+      tech: [
+        'JS',
+        'Nuxt',
+        'Vuetify',
+        'Vue',
+        'Sass',
+        'Node',
+        'Express',
+        'Chart.js',
+      ],
+    };
   },
-  components: {},
+  components: {
+    techChips,
+  },
   methods: {},
 };
 </script>
