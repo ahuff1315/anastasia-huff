@@ -24,7 +24,7 @@
         <h4 class="text-h4">
           Technologies
         </h4>
-        <tech-chips :technologies="tech" />
+        <tech-chips :technologies="tech" class="pt-4" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <h4 class="text-h4">
           About this project
