@@ -12,9 +12,11 @@
             </v-row>
           </template>
         </v-img>
-        <p class="text-caption mb-0 pa-1">
-          {{ image.detail }}
-        </p>
+        <div class="d-flex flex-column align-center">
+          <p class="text-caption mb-0 pa-1 text-center full-width">
+            {{ image.detail }}
+          </p>
+        </div>
       </v-carousel-item>
     </v-carousel>
   </div>
