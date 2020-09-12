@@ -49,9 +49,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.home-hr {
-  max-width: 700px;
-  margin: auto;
-}
-</style>
+<style lang="scss"></style>

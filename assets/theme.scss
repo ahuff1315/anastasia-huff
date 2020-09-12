@@ -45,6 +45,11 @@ p {
   opacity: 1;
 }
 
+.home-hr {
+  max-width: 700px !important;
+  margin: auto;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
