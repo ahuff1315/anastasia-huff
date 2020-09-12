@@ -13,9 +13,7 @@
         <p class="text-h6 font-weight-light text--secondary">
           Jan - June 2018
         </p>
-        <p class="text-body-1 font-weight-light text--secondary">
-          Image carousel here?
-        </p>
+        <image-carousel class="my-10 py-6" :images="images" />
         <h4 class="text-h4">
           Technologies
         </h4>
@@ -39,6 +37,37 @@ export default {
     return {
       fadeOutStart: false,
       tech: ['JS', 'Ionic', 'Django', 'Angular4', 'Bootstrap', 'Chart.js'],
+      images: [
+        {
+          detail:
+            'Survey says home screen displaying different posts and the ability to answer and view the data visualizations',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599937469/portfolio/survey-says-main_sicd8p.svg',
+        },
+        {
+          detail:
+            'Creating a new question and viewing the new question on the home screen',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599940183/portfolio/survey-says-create-question_emgbcp.svg',
+        },
+        {
+          detail: 'Landing screen with navigation options for login and signup',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599941540/portfolio/survey-says-start_qgtucu.svg',
+        },
+        {
+          detail:
+            'History screen displaying previously answered questions and the account details screen',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943586/portfolio/survey-says-history_r2zae8.svg',
+        },
+        {
+          detail:
+            'Search screen that allows you to search for specific surveys',
+          src:
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943631/portfolio/survey-says-search_jv5oez.svg',
+        },
+      ],
     };
   },
   components: {
