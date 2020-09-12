@@ -14,11 +14,16 @@
           Aug 2020 - Present
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
-          This site is for displaying some of my personal projects. Financially
-          Financed has a live site that users can visit while the other projects
-          have links to Github to view the code. More detailed information can
-          found on the individual project pages.
+          Image carousel here?
         </p>
+        <h4 class="text-h4">
+          Technologies
+        </h4>
+        <tech-chips :technologies="tech" class="pt-4" />
+        <h4 class="text-h4">
+          About this project
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
       </div>
     </div>
   </div>
@@ -29,6 +34,16 @@ export default {
   data() {
     return {
       fadeOutStart: false,
+      tech: [
+        'JS',
+        'Nuxt',
+        'Vuetify',
+        'Vue',
+        'Sass',
+        'Node',
+        'Docker',
+        'Express',
+      ],
     };
   },
   components: {},
