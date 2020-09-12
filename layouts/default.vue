@@ -1,7 +1,7 @@
 <template>
   <div class="my-app">
     <v-app dark>
-      <nuxt class="main-background px-8" />
+      <nuxt class="main-background px-6" />
       <ana-footer />
     </v-app>
   </div>
