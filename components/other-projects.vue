@@ -120,6 +120,7 @@ export default {
         'Vue',
         'Sass',
         'Node',
+        'Docker',
         'Express',
       ],
       surveyTech: [

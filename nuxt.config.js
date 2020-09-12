@@ -100,6 +100,7 @@ export default {
           angular: '#DD0031',
           bootstrap: '#614092',
           javascript: '#F8DC3D',
+          docker: '#2496ED',
         },
       },
     },

@@ -75,6 +75,10 @@ export default {
           icon: 'mdi-bootstrap',
           color: 'bootstrap',
         },
+        Docker: {
+          icon: 'mdi-docker',
+          color: 'docker',
+        },
       },
     };
   },
