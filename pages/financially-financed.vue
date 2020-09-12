@@ -7,13 +7,13 @@
         </v-icon>
       </v-btn>
       <div class="section-container">
-        <h1 class="text-h1 pt-10 pb-6">
+        <h1 class="text-sm-h1 text-h2 pt-10 pb-6">
           Financially Financed
         </h1>
         <p class="text-h6 font-weight-light text--secondary">
           Jan 2019 - Present
         </p>
-        <image-carousel class="my-10 py-6" :images="images" />
+        <image-carousel class="my-10 py-sm-6" :images="images" />
         <!-- <p class="text-body-1 font-weight-light text--secondary">
           This web app focuses on personal finance and provides useful tools and
           calculators to users who may have questions about their financial
