@@ -109,30 +109,31 @@ export default {
       images: [
         {
           detail:
-            'Survey says home screen displaying different posts and the ability to answer and view the data visualizations',
+            'Survey says home screen displaying different posts and the ability to answer and view the data visualizations.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599937469/portfolio/survey-says-main_sicd8p.svg',
         },
         {
           detail:
-            'Creating a new question and viewing the new question on the home screen',
+            'Creating a new question and viewing the new question on the home screen.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599940183/portfolio/survey-says-create-question_emgbcp.svg',
         },
         {
-          detail: 'Landing screen with navigation options for login and signup',
+          detail:
+            'Landing screen with navigation options for login and signup.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599941540/portfolio/survey-says-start_qgtucu.svg',
         },
         {
           detail:
-            'History screen displaying previously answered questions and the account details screen',
+            'History screen displaying previously answered questions and the account details screen.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943586/portfolio/survey-says-history_r2zae8.svg',
         },
         {
           detail:
-            'Search screen that allows you to search for specific surveys',
+            'Search screen that allows you to search for specific surveys.',
           src:
             'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943631/portfolio/survey-says-search_jv5oez.svg',
         },
