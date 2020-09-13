@@ -1,7 +1,7 @@
 <template>
   <div class="main-container py-16">
     <div class="main-opacity" :class="[fadeOutStart ? 'fade-out-start' : '']">
-      <v-btn class="ml-4 mt-4" fab top left fixed @click="redirect()">
+      <v-btn class="ml-sm-4 mt-sm-4" fab top left fixed @click="redirect()">
         <v-icon large>
           mdi-chevron-left
         </v-icon>
