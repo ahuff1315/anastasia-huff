@@ -28,7 +28,7 @@
               </v-btn>
             </div>
           </template>
-          <span>No live site</span>
+          <span>On live site</span>
         </v-tooltip>
         <v-tooltip bottom>
           <template v-slot:activator="{ on }">
