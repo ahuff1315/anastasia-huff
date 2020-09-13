@@ -13,6 +13,34 @@
         <p class="text-h6 font-weight-light text--secondary">
           Jan 2019 - Present
         </p>
+        <div class="d-flex">
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <div v-on="on">
+                <v-btn
+                  icon
+                  href="https://financiallyfinanced.com/"
+                  target="_blank"
+                >
+                  <v-icon>
+                    mdi-launch
+                  </v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <span>View live site</span>
+          </v-tooltip>
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <div class="ml-4" v-on="on">
+                <v-btn disabled icon>
+                  <v-icon>mdi-github</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <span>Code in private repo</span>
+          </v-tooltip>
+        </div>
         <image-carousel class="my-10 py-sm-6" :images="images" />
         <!-- <p class="text-body-1 font-weight-light text--secondary">
           This web app focuses on personal finance and provides useful tools and
