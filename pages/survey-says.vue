@@ -96,8 +96,6 @@
 </template>
 
 <script>
-// This app lets users create surveys and answer surveys that other users have created.
-// The surveys are ranked by a model that was trained on tweets
 import imageCarousel from '@/components/image-carousel.vue';
 import techChips from '@/components/tech-chips.vue';
 
