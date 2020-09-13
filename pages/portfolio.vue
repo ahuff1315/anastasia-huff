@@ -36,7 +36,9 @@
           </v-tooltip>
         </div>
         <p class="text-body-1 font-weight-light text--secondary pb-16 pt-6">
-          This portfolio site is to show some of my projects.
+          This portfolio site is to show some of my projects. Since my main
+          project Financially Financed does not have code publicly available,
+          you can view the code for this website on github.
         </p>
         <h4 class="text-h4">
           Technologies
