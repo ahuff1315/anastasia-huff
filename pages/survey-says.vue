@@ -36,21 +36,39 @@
           </v-tooltip>
         </div>
         <image-carousel class="my-10 py-6" :images="images" />
-        <h4 class="text-h4">
+        <h4 class="text-h4 pb-4">
           Technologies
         </h4>
-        <tech-chips :technologies="tech" class="pt-4" />
+        <tech-chips :technologies="tech" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
-        <h4 class="text-h4">
+        <h4 class="text-h4 pb-4">
           About this project
         </h4>
-        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          This app started as a semester long class project. Survey Says is an
+          app that allows you to view, create, and answer polls or
+          questionnaires.
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          You can view and answer any polls that other people have created.
+          After answering the question, you can see how your answer compares to
+          other people that have answered that same question through several
+          data visualizations that appear after you cast your vote. The polls
+          you have answered previously can be revisited in the history tab.
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          You also have the ability to create your own polls that other users
+          can answer. A new poll requires a question and a minimum of two
+          possible choices but more choices can be added during creation.
+        </p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+// This app lets users create surveys and answer surveys that other users have created.
+// The surveys are ranked by a model that was trained on tweets
 import imageCarousel from '@/components/image-carousel.vue';
 import techChips from '@/components/tech-chips.vue';
 
