@@ -27,12 +27,12 @@
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <div class="ml-4" v-on="on">
-                <v-btn icon>
+                <v-btn disabled icon>
                   <v-icon>mdi-github</v-icon>
                 </v-btn>
               </div>
             </template>
-            <span>View repo</span>
+            <span>Code in private repo</span>
           </v-tooltip>
         </div>
         <image-carousel class="my-10 py-6" :images="images" />
