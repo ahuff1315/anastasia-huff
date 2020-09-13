@@ -13,8 +13,8 @@
         <p class="text-h6 font-weight-light text--secondary">
           Aug 2020 - Present
         </p>
-        <p class="text-body-1 font-weight-light text--secondary">
-          Image carousel here?
+        <p class="text-body-1 font-weight-light text--secondary pb-16 pt-6">
+          This portfolio site is to show some of my projects.
         </p>
         <h4 class="text-h4">
           Technologies
@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import imageCarousel from '@/components/image-carousel.vue';
 import techChips from '@/components/tech-chips.vue';
 
 export default {
@@ -51,7 +50,6 @@ export default {
     };
   },
   components: {
-    imageCarousel,
     techChips,
   },
   methods: {
