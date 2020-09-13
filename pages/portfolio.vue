@@ -1,13 +1,13 @@
 <template>
   <div class="main-container py-16">
     <div class="main-opacity" :class="[fadeOutStart ? 'fade-out-start' : '']">
-      <v-btn class="ml-4 mt-4" fab top left fixed @click="redirect()">
+      <v-btn class="ml-sm-4 mt-sm-4" fab top left fixed @click="redirect()">
         <v-icon large>
           mdi-chevron-left
         </v-icon>
       </v-btn>
       <div class="section-container">
-        <h1 class="text-h1 pt-10 pb-6">
+        <h1 class="text-sm-h1 text-h2 pt-10 pb-6">
           Portfolio Site
         </h1>
         <p class="text-h6 font-weight-light text--secondary">
