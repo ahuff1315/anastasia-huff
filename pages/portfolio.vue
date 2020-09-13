@@ -13,6 +13,28 @@
         <p class="text-h6 font-weight-light text--secondary">
           Aug 2020 - Present
         </p>
+        <div class="d-flex">
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <div v-on="on">
+                <v-btn disabled icon>
+                  <v-icon>mdi-launch</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <span>On live site</span>
+          </v-tooltip>
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <div class="ml-4" v-on="on">
+                <v-btn icon>
+                  <v-icon>mdi-github</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <span>View repo</span>
+          </v-tooltip>
+        </div>
         <p class="text-body-1 font-weight-light text--secondary pb-16 pt-6">
           This portfolio site is to show some of my projects.
         </p>
