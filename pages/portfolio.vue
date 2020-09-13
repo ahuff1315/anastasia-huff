@@ -50,12 +50,12 @@
             </template>
           </v-img>
         </div>
-        <h4 class="text-h4">
+        <h4 class="text-h4 pb-4">
           Technologies
         </h4>
-        <tech-chips :technologies="tech" class="pt-4" />
-        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
-        <h4 class="text-h4">
+        <tech-chips :technologies="tech" />
+        <p class="text-body-1 font-weight-light text--secondary pb-10"></p>
+        <h4 class="text-h4 pb-4">
           About this project
         </h4>
         <p class="text-body-1 font-weight-light text--secondary pb-16">
