@@ -55,7 +55,7 @@
         <tech-chips :technologies="tech" class="pt-4" />
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <h4 class="text-h4">
-          About this project
+          About This Project
         </h4>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
         <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
