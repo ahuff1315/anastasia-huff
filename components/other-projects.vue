@@ -2,7 +2,7 @@
   <div>
     <div class="section-container pt-16">
       <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
-        Current Project
+        This Website
       </p>
       <h3 class="text-h3 font-weight-regular pb-4 pt-2 text--primary">
         Portfolio Site
