@@ -35,11 +35,21 @@
             <span>View repo</span>
           </v-tooltip>
         </div>
-        <p class="text-body-1 font-weight-light text--secondary pb-16 pt-6">
-          This portfolio site is to show some of my projects. Since my main
-          project Financially Financed does not have code publicly available,
-          you can view the code for this website on github.
-        </p>
+        <div class="my-10 py-sm-6">
+          <v-img
+            :aspect-ratio="19 / 9"
+            src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600034903/portfolio/portfolio-main_yblzzo.svg"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+        </div>
         <h4 class="text-h4">
           Technologies
         </h4>
@@ -48,7 +58,11 @@
         <h4 class="text-h4">
           About this project
         </h4>
-        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          This portfolio site is to show some of my projects. Since my main
+          project Financially Financed does not have code publicly available,
+          you can view the code for this website on github.
+        </p>
       </div>
     </div>
   </div>
