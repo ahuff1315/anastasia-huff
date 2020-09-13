@@ -42,13 +42,6 @@
           </v-tooltip>
         </div>
         <image-carousel class="my-10 py-sm-6" :images="images" />
-        <!-- <p class="text-body-1 font-weight-light text--secondary">
-          This web app focuses on personal finance and provides useful tools and
-          calculators to users who may have questions about their financial
-          situation. These tools give the user a unique look into their finances
-          and use various data visualizations to show breakdowns and highlight
-          important points.
-        </p> -->
         <h4 class="text-h4">
           Technologies
         </h4>
@@ -58,7 +51,6 @@
           About This Project
         </h4>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
-        <!-- <p class="text-body-1 font-weight-light text--secondary pb-16"></p> -->
       </div>
     </div>
   </div>
