@@ -50,6 +50,53 @@
         <h4 class="text-h4 pb-4">
           About This Project
         </h4>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Financially Financed is my main project that I created and continue to
+          work on with Steven Cleary. On the website you can find personal
+          finance calculators and content.
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          These calculators show you how different scenarios can affect the end
+          result you are looking to reach. Each calculator gives you a unique
+          look at your finances through different data visualizations and
+          breakdowns.
+        </p>
+        <h5 class="text-h5 font-weight-light pt-6 pb-4">
+          Project Highlights
+        </h5>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We have taken multiple steps to make development easier in this
+          project.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          SEO
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We use Nuxt.js which allows us to server side render and client side
+          render content. This improves page load times and UX.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Material UI
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Using Vuetify's UI components gives users a smooth experience while
+          following Material UI guidlines.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Build automation
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Automating the build process allows us to quickly deploy our updates
+          to the live website.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Reusable components
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We made reusable components to keep our calculators consistent. An
+          example is a layout component for the calculators. It gives us the
+          ability to customize the content while maintaining the same layout.
+        </p>
         <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
       </div>
     </div>
