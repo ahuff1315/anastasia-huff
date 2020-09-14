@@ -27,7 +27,11 @@
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <div class="ml-4" v-on="on">
-                <v-btn icon>
+                <v-btn
+                  href="https://github.com/ahuff1315/anastasia-huff"
+                  target="_blank"
+                  icon
+                >
                   <v-icon>mdi-github</v-icon>
                 </v-btn>
               </div>
