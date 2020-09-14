@@ -97,7 +97,55 @@
           example is a layout component for the calculators. It gives us the
           ability to customize the content while maintaining the same layout.
         </p>
-        <p class="text-body-1 font-weight-light text--secondary pb-16"></p>
+        <h5 class="text-h5 font-weight-light pt-6 pb-4">
+          Calculator Features
+        </h5>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We added some cool features to our calculators that you can enjoy.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Age
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Entering your age in advanced options shows you how old you will be
+          when you reach your goal. It also updates the axes on relevant graph
+          breakdowns to reflect age at each data point instead of years.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Yearly toggle
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          When making contributions you can use the yearly toggle. In the off
+          position you will be making monthly contributions. In the on position
+          you will be making yearly contributions. Using the toggle will change
+          the calculator text and your end results.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          AGR
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          When the calculator uses an annualized growth rate (AGR), you can
+          change it in advanced options. This lets you see how different AGRs
+          can affect your goal.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Currency format
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          In all currency fields, you can enter the characters k, m, and b to
+          your number to represent thousand, million, and billion. This saves
+          you time typing out a bunch of zeros. An example is if you wanted to
+          enter 200,000,000. All you need to enter into the currency field is
+          200m.
+        </p>
+        <h6 class="text-h6 font-weight-light">
+          Copy result
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          We added a one click copy to clipboard for the unformatted calculator
+          results. You can then paste the number into any calculator if you need
+          to do more calculations.
+        </p>
       </div>
     </div>
   </div>
