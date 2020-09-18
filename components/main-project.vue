@@ -4,7 +4,10 @@
       Current project
     </p>
     <div>
-      <h3 class="text-h3 font-weight-regular pb-4 pt-2 text--primary">
+      <h3
+        @click="$emit('more-info', 'financially-financed')"
+        class="text-h3 font-weight-regular mb-4 pt-2 text--primary clickable-text d-inline-flex"
+      >
         Financially Financed
       </h3>
       <p class="text-subtitle-2 font-weight-light text--secondary">
