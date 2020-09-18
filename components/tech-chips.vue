@@ -92,6 +92,10 @@ export default {
           icon: 'mdi-language-typescript',
           color: 'typescript',
         },
+        'Scikit Learn': {
+          icon: 'mdi-chart-bell-curve-cumulative',
+          color: 'scikit',
+        },
       },
     };
   },

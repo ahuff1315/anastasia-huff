@@ -103,7 +103,15 @@ export default {
   data() {
     return {
       fadeOutStart: false,
-      tech: ['JS', 'Ionic', 'Django', 'Angular4', 'Bootstrap', 'Chart.js'],
+      tech: [
+        'JS',
+        'Ionic',
+        'Django',
+        'Angular4',
+        'Bootstrap',
+        'Chart.js',
+        'Scikit Learn',
+      ],
       images: [
         {
           detail:
