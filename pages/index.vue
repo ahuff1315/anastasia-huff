@@ -13,7 +13,7 @@
           <span class="text--primary font-weight-regular">
             software engineer
           </span>
-          from Phoenix, Arizona and this is a site to show some of my projects.
+          and this is a site to show some of my projects.
         </p>
       </div>
       <v-divider class="mt-16 home-hr"></v-divider>
