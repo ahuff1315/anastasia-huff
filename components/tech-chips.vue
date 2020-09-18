@@ -96,6 +96,10 @@ export default {
           icon: 'mdi-chart-bell-curve-cumulative',
           color: 'scikit',
         },
+        NLTK: {
+          icon: 'mdi-graph',
+          color: 'nltk',
+        },
       },
     };
   },
