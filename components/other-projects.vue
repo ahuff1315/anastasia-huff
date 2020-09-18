@@ -4,7 +4,10 @@
       <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
         This Website
       </p>
-      <h3 class="text-h3 font-weight-regular pb-4 pt-2 text--primary">
+      <h3
+        @click="$emit('more-info', 'portfolio')"
+        class="text-h3 font-weight-regular mb-4 pt-2 text--primary clickable-text d-inline-flex"
+      >
         Portfolio Site
       </h3>
       <p class="text-subtitle-2 font-weight-light text--secondary">
@@ -60,7 +63,10 @@
       <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
         Older Project
       </p>
-      <h3 class="text-h3 font-weight-regular pb-4 pt-2 text--primary">
+      <h3
+        @click="$emit('more-info', 'survey-says')"
+        class="text-h3 font-weight-regular mb-4 pt-2 text--primary clickable-text d-inline-flex"
+      >
         Survey Says
       </h3>
       <p class="text-subtitle-2 font-weight-light text--secondary">
