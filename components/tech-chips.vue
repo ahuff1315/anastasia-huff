@@ -79,6 +79,10 @@ export default {
           icon: 'mdi-docker',
           color: 'docker',
         },
+        Kubernetes: {
+          icon: 'mdi-kubernetes',
+          color: 'kubernetes',
+        },
       },
     };
   },
