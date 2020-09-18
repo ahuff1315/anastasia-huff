@@ -102,6 +102,7 @@ export default {
           javascript: '#F8DC3D',
           docker: '#2496ED',
           kubernetes: '#316CE6',
+          python: '#1E415E',
         },
       },
     },
