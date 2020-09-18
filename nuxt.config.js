@@ -104,6 +104,7 @@ export default {
           kubernetes: '#316CE6',
           python: '#3776AB',
           typescript: '#235A97',
+          scikit: '#F89939',
         },
       },
     },
