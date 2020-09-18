@@ -101,6 +101,7 @@ export default {
           bootstrap: '#614092',
           javascript: '#F8DC3D',
           docker: '#2496ED',
+          kubernetes: '#316CE6',
         },
       },
     },
