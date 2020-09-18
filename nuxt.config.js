@@ -103,6 +103,7 @@ export default {
           docker: '#2496ED',
           kubernetes: '#316CE6',
           python: '#3776AB',
+          typescript: '#235A97',
         },
       },
     },
