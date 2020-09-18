@@ -87,6 +87,10 @@ export default {
           icon: 'mdi-language-python',
           color: 'python',
         },
+        Typescript: {
+          icon: 'mdi-language-typescript',
+          color: 'typescript',
+        },
       },
     };
   },
