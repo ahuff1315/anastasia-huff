@@ -104,7 +104,7 @@ export default {
     return {
       fadeOutStart: false,
       tech: [
-        'Typescript',
+        'TypeScript',
         'Ionic',
         'Django',
         'Angular4',

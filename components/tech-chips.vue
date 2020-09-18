@@ -88,7 +88,7 @@ export default {
           icon: 'mdi-language-python',
           color: 'python',
         },
-        Typescript: {
+        TypeScript: {
           icon: 'mdi-language-typescript',
           color: 'typescript',
         },

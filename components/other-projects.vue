@@ -134,7 +134,7 @@ export default {
         'Express.js',
       ],
       surveyTech: [
-        'Typescript',
+        'TypeScript',
         'Ionic',
         'Django',
         'Python',
