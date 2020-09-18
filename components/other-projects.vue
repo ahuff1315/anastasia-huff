@@ -137,6 +137,7 @@ export default {
         'JS',
         'Ionic',
         'Django',
+        'Python',
         'Angular4',
         'Bootstrap',
         'Chart.js',
