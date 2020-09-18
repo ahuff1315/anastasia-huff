@@ -78,8 +78,6 @@ export default {
         'Node',
         'Docker',
         'Kubernetes',
-        'Express.js',
-        'Chart.js',
       ],
     };
   },
