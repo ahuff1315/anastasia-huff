@@ -83,6 +83,10 @@ export default {
           icon: 'mdi-kubernetes',
           color: 'kubernetes',
         },
+        Python: {
+          icon: 'mdi-language-python',
+          color: 'python',
+        },
       },
     };
   },
