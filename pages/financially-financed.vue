@@ -214,6 +214,11 @@ export default {
       ],
     };
   },
+  head() {
+    return {
+      title: 'Anastasia Huff - Financially Financed',
+    };
+  },
   components: {
     imageCarousel,
     techChips,

@@ -91,6 +91,11 @@ export default {
       ],
     };
   },
+  head() {
+    return {
+      title: 'Anastasia Huff - Portfolio Site',
+    };
+  },
   components: {
     techChips,
   },

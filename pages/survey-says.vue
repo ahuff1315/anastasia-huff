@@ -147,6 +147,11 @@ export default {
       ],
     };
   },
+  head() {
+    return {
+      title: 'Anastasia Huff - Survey Says',
+    };
+  },
   components: {
     imageCarousel,
     techChips,
