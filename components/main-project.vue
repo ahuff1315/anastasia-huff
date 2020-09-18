@@ -76,6 +76,7 @@ export default {
         'Vue',
         'Sass',
         'Node',
+        'Docker',
         'Express.js',
         'Chart.js',
       ],
