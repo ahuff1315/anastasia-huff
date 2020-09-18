@@ -1,18 +1,19 @@
 <template>
   <div>
-    <v-chip
-      class="ma-2 ml-0"
-      v-for="(tech, i) in technologies"
-      :key="i"
-      :color="techDetails[tech].color"
-      small
-      outlined
-    >
-      <v-icon small left>
-        {{ techDetails[tech].icon }}
-      </v-icon>
-      {{ tech }}
-    </v-chip>
+    <span v-for="(tech, i) in technologies" :key="i">
+      <v-chip
+        v-if="techDetails[tech] != undefined"
+        class="ma-2 ml-0"
+        :color="techDetails[tech].color"
+        small
+        outlined
+      >
+        <v-icon small left>
+          {{ techDetails[tech].icon }}
+        </v-icon>
+        {{ tech }}
+      </v-chip>
+    </span>
   </div>
 </template>
 
