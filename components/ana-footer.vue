@@ -13,16 +13,16 @@
           <v-btn
             class="text-lowercase"
             max-width="300"
-            href="mailto:ahuff1315@gmail.com"
+            href="mailto:anastasia.huff.dev@gmail.com"
             outlined
           >
-            ahuff1315@gmail.com
+            anastasia.huff.dev@gmail.com
           </v-btn>
           <v-tooltip right>
             <template v-slot:activator="{ on }">
               <v-btn
                 class="ml-4"
-                @click="copyToClipboard('ahuff1315@gmail.com')"
+                @click="copyToClipboard('anastasia.huff.dev@gmail.com')"
                 icon
                 v-on="on"
               >
