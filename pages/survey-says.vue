@@ -111,6 +111,7 @@ export default {
         'Bootstrap',
         'Chart.js',
         'Scikit Learn',
+        'NLTK',
       ],
       images: [
         {
