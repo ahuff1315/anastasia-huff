@@ -105,6 +105,7 @@ export default {
           python: '#3776AB',
           typescript: '#235A97',
           scikit: '#F89939',
+          nltk: '#3465A4',
         },
       },
     },
