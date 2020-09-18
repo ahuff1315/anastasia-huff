@@ -167,6 +167,7 @@ export default {
         'Sass',
         'Node',
         'Docker',
+        'Kubernetes',
         'Express.js',
         'Chart.js',
       ],
