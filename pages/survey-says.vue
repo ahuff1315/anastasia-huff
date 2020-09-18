@@ -11,7 +11,7 @@
           Survey Says
         </h1>
         <p class="text-h6 font-weight-light text--secondary">
-          Jan - June 2018
+          Jan - April 2018
         </p>
         <div class="d-flex">
           <v-tooltip bottom>
