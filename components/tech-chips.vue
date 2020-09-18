@@ -51,7 +51,7 @@ export default {
           icon: 'mdi-nodejs',
           color: 'node',
         },
-        Express: {
+        'Express.js': {
           icon: 'mdi-alpha-e-circle',
           color: 'express',
         },

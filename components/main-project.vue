@@ -76,7 +76,7 @@ export default {
         'Vue',
         'Sass',
         'Node',
-        'Express',
+        'Express.js',
         'Chart.js',
       ],
     };

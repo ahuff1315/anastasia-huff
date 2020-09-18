@@ -87,7 +87,7 @@ export default {
         'Sass',
         'Node',
         'Docker',
-        'Express',
+        'Express.js',
       ],
     };
   },
