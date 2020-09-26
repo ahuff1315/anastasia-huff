@@ -18,8 +18,7 @@ export default {
   head: {
     titleTemplate: '%s',
     title: 'Anastasia Huff',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8',
       },
       {
@@ -29,17 +28,14 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          "I'm a software engineer and this is a site to show some of my projects.",
+        content: "I'm a software engineer and this is a site to show some of my projects.",
       },
     ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico',
-      },
-    ],
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico',
+    }, ],
   },
   /*
    ** Global CSS
@@ -61,10 +57,12 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/vuetify',
-    '@nuxtjs/google-analytics',
-    {
-      id: 'UA-178442476-1',
-    },
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-178442476-1',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
