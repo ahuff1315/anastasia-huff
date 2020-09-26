@@ -17,11 +17,15 @@
         <tech-chips :technologies="tech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
-        This web app focuses on personal finance and provides useful tools and
-        calculators to users who may have questions about their financial
-        situation. These tools give the user a unique look into their finances
-        and use various data visualizations to show breakdowns and highlight
-        important points.
+        Financially Financed is my main project and will be for a while. The
+        code is in a private repo but you can email me at the address in the
+        footer if you want to see a snippet.
+      </p>
+      <p class="text-body-1 font-weight-light text--secondary">
+        You can use the site to answer your personal finance questions. We have
+        a collection of tools and calculators for you to use. When you use a
+        calculator, you get a unique look into the scenario through graphs and
+        breakdowns. Our goal is to help you make smarter financial decisions.
       </p>
       <div class="d-flex">
         <v-tooltip bottom>
