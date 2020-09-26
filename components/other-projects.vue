@@ -59,6 +59,7 @@
         </v-tooltip>
       </div>
     </div>
+    <v-divider class="mt-16 home-hr"></v-divider>
     <div class="section-container pt-16">
       <p class="text-overline font-weight-light pt-4 mb-0 text--secondary">
         Older Project
