@@ -83,7 +83,7 @@
         <p class="text-body-1 font-weight-light text--secondary">
           Steven Cleary
         </p>
-        <h4 class="text-h4 pt-6 pb-4">
+        <h4 id="architecture" class="text-h4 pt-6 pb-4">
           Architecture
         </h4>
         <p class="text-body-1 font-weight-light text--secondary">
@@ -99,7 +99,16 @@
             src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1601240311/portfolio/architecture-dark_u8mwr8.svg"
             max-width="500"
             width="95%"
-          ></v-img>
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
         </div>
         <p class="text-body-1 font-weight-light text--secondary">
           We also host other sites in the same cluster as Financially Financed.
