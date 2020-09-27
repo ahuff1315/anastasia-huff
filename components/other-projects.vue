@@ -17,10 +17,13 @@
         <tech-chips :technologies="portfolioTech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
-        This site is for displaying some of my personal projects. My current
-        project has a live site that users can visit while the other projects
-        have links to Github to view the code. More detailed information can be
-        found on the individual project pages.
+        This is my portfolio site to show some of my personal projects. I have
+        made the git repo public since my main project's repo isn't. If you
+        don't want to email me but still want to see some code click the Github
+        icon below.
+      </p>
+      <p class="text-body-1 font-weight-light text--secondary">
+        You can take a deeper look into the projects on their individual pages.
       </p>
       <div class="d-flex">
         <v-tooltip bottom>
@@ -77,10 +80,8 @@
         <tech-chips :technologies="surveyTech" />
       </div>
       <p class="text-body-1 font-weight-light text--secondary">
-        This app allows users to create and answer surveys that other users have
-        created. These surveys can also display different visualizations on the
-        data that has been collected from users that have completed the
-        questionnaire.
+        Create surveys for people to answer. Complete surveys to see how others
+        answered. See the results through different data visualizations.
       </p>
       <div class="d-flex">
         <v-tooltip bottom>
@@ -132,7 +133,7 @@ export default {
         'Sass',
         'Node',
         'Docker',
-        'Express.js',
+        'Kubernetes',
       ],
       surveyTech: [
         'TypeScript',
