@@ -202,7 +202,7 @@
           results. You can then paste the number into any calculator if you need
           to do more calculations.
         </p>
-        <h4 class="text-h4 font-weight-light pt-6 pb-4">
+        <h4 class="text-h4 pt-6 pb-4">
           Code
         </h4>
         <p class="text-body-1 font-weight-light text--secondary pb-16">
