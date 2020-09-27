@@ -62,10 +62,26 @@
         <h4 class="text-h4 pb-4">
           About This Project
         </h4>
-        <p class="text-body-1 font-weight-light text--secondary pb-16">
+        <p class="text-body-1 font-weight-light text--secondary">
           This portfolio site is to show some of my projects. Since my main
           project Financially Financed does not have code publicly available,
-          you can view the code for this website on github.
+          you can view the code for this website on Github. You can click the
+          Github icon at the top of this page to go to the repo.
+        </p>
+        <h4 class="text-h4 pt-6 pb-4">
+          Architecture
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          This site has the same architecture as my main project Financially
+          Financed. Click
+          <a
+            class="d-inline-block"
+            href=""
+            @click="hrefGoTo($event, 'financially-financed#architecture')"
+          >
+            here
+          </a>
+          to learn more about it.
         </p>
       </div>
     </div>
@@ -104,6 +120,13 @@ export default {
       this.fadeOutStart = true;
       setTimeout(() => {
         this.$router.go(-1);
+      }, 200);
+    },
+    hrefGoTo($event, url) {
+      $event.preventDefault();
+      this.fadeOutStart = true;
+      setTimeout(() => {
+        this.$router.push(url);
       }, 200);
     },
   },
