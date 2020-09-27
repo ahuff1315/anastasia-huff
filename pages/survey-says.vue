@@ -45,40 +45,46 @@
           About This Project
         </h4>
         <p class="text-body-1 font-weight-light text--secondary">
-          This app started as a semester long class project. Survey Says is an
-          app that allows you to view, create, and answer polls or
-          questionnaires. I worked mainly on polishing the UI and fixing bugs in
-          the frontend and backend. The UI was based loosely on Twitter,
-          Facebook, Amazon, and other popular sites.
+          This app started as a semester long class project. On the app you can
+          view, create, and answer polls or questionnaires. I worked mainly on
+          polishing the UI and fixing bugs in the frontend and backend. The UI
+          was based loosely on Twitter, Facebook, Amazon, and other popular
+          sites.
         </p>
-        <h5 class="text-h5 font-weight-light pt-6 pb-4">
+        <h6 class="text-h6 font-weight-light">
+          Other contributors
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Steven Cleary
+        </p>
+        <h4 class="text-h4 pt-6 pb-4">
           General Functionality
-        </h5>
+        </h4>
         <p class="text-body-1 font-weight-light text--secondary">
           You can view and answer any polls that other people have created.
-          After casting your vote, you can see how your answer compares to
-          others that have also completed the poll through the data
-          visualizations that appear after you cast your vote. The polls you
-          have answered previously can be revisited in the history tab.
+          After casting your vote, see how your answer compares to others
+          through the data visualizations that show after you cast your vote.
+          You can go to the history tab to see all of the polls you have
+          answered.
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
-          You also have the ability to create your own polls that other users
-          can answer. A new poll requires a question and a minimum of two
-          possible choices but more choices can be added during creation. After
-          you finish creating your poll, you can view it on the home page.
+          You can also create your own polls that other users can answer. A new
+          poll needs a question and at least two possible choices but more
+          choices can be added when you create it. After you finish making your
+          poll, you can view it on the home page.
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
-          If you have a specific question in mind, you can search for it in the
-          tab with the search icon. Polls containing the query will be displayed
-          below the search bar.
+          If you have a specific question in mind, you can use the search tab to
+          look for it. Polls containing the query will show below the search
+          bar.
         </p>
-        <h5 class="text-h5 font-weight-light pt-6 pb-4">
+        <h4 class="text-h4 pt-6 pb-4">
           High Level Overview
-        </h5>
+        </h4>
         <p class="text-body-1 font-weight-light text--secondary">
           We broke the app into three parts:
         </p>
-        <ul class="text-body-1 font-weight-light text--secondary pb-16">
+        <ul class="text-body-1 font-weight-light text--secondary pb-4">
           <li>
             The backend, which was written in Python using Django.
           </li>
@@ -90,6 +96,13 @@
             random questions.
           </li>
         </ul>
+        <h4 class="text-h4 pt-6 pb-4">
+          Code
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          The code is in a private repo but you can email me at the address in
+          the footer if you want to see a snippet.
+        </p>
       </div>
     </div>
   </div>
