@@ -215,7 +215,7 @@
 </template>
 
 <script>
-import imageCarousel from '@/components/image-carousel.vue';
+import imageCarousel from '@/components/image-carousel/image-carousel.vue';
 import techChips from '@/components/tech-chips.vue';
 
 export default {
