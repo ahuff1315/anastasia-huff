@@ -77,6 +77,35 @@
           You should see that it will take you 13 years to reach $500k investing
           $2k each month.
         </p>
+        <h6 class="text-h6 font-weight-light">
+          Other contributors
+        </h6>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Steven Cleary
+        </p>
+        <h4 class="text-h4 pt-6 pb-4">
+          Architecture
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary">
+          Our apps run on GKE (Google's Kubernetes Engine) and use one cluster
+          with one node pool. The node pool contains three ephemeral nodes of
+          the g1-small machine type, which is the smallest you can run on GKE.
+          We chose this setup to reduce cost. Lastly we use an external load
+          balancer with an ingress to direct traffic to our sites.
+        </p>
+        <div class="d-flex justify-center">
+          <v-img
+            class="mx-4 mt-4 mb-8"
+            src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1601240311/portfolio/architecture-dark_u8mwr8.svg"
+            max-width="500"
+            width="95%"
+          ></v-img>
+        </div>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We also host other sites in the same cluster as Financially Financed.
+          There are more pods that aren't shown in the diagram indicated by the
+          ... .
+        </p>
         <h4 class="text-h4 pt-6 pb-4">
           Development Features
         </h4>
@@ -111,9 +140,9 @@
           Reusable components
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
-          We made reusable components to keep our calculators consistent. An
-          example is a layout component for our calculators. Using it lets us
-          customize the content while keeping the same layout.
+          We made reusable components to keep everything consistent. An example
+          is a layout component for our calculators. Using it lets us customize
+          the content while keeping the same layout.
         </p>
         <h4 class="text-h4 font-weight-light pt-6 pb-4">
           Calculator Features
@@ -159,10 +188,17 @@
         <h6 class="text-h6 font-weight-light">
           Copy result
         </h6>
-        <p class="text-body-1 font-weight-light text--secondary pb-16">
+        <p class="text-body-1 font-weight-light text--secondary">
           We added a one click copy to clipboard for the unformatted calculator
           results. You can then paste the number into any calculator if you need
           to do more calculations.
+        </p>
+        <h4 class="text-h4 font-weight-light pt-6 pb-4">
+          Code
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary pb-16">
+          The code is in a private repo but you can email me at the address in
+          the footer if you want to see a snippet.
         </p>
       </div>
     </div>
