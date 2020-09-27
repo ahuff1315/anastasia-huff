@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import anaFooter from '@/components/ana-footer.vue';
+import anaFooter from '@/components/ana-footer/ana-footer.vue';
 
 export default {
   data() {
