@@ -51,29 +51,47 @@
           About This Project
         </h4>
         <p class="text-body-1 font-weight-light text--secondary">
-          Financially Financed is my main project that I created and continue to
-          work on with Steven Cleary. On the website you can find personal
-          finance calculators and content.
+          Financially Financed is my main project. On the website you can find a
+          collection of personal finance content and calculators. You can go the
+          the site by clicking the open icon at the top of this page. If you do
+          decide to visit, you can use the calculators to run through some
+          financial scenarios.
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
-          These calculators show you how different scenarios can affect the end
-          result you are looking to reach. Each calculator gives you a unique
-          look at your finances through different data visualizations and
-          breakdowns.
+          On the home page you will find the Compound Interest Timespan
+          calculator.
         </p>
-        <h5 class="text-h5 font-weight-light pt-6 pb-4">
-          Project Highlights
-        </h5>
         <p class="text-body-1 font-weight-light text--secondary">
-          We have taken multiple steps to make development easier in this
-          project.
+          Now let me show you an example of how to use it. Lets say you have a
+          goal of saving $500k. And you want to contribute $2k each month to
+          reach that goal.
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          How long will it take you to reach your goal?
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          In the target value field, enter 500k. In the monthly contributions
+          field, enter 2k.
+        </p>
+        <p class="text-body-1 font-weight-light text--secondary">
+          You should see that it will take you 13 years to reach $500k investing
+          $2k each month.
+        </p>
+        <h4 class="text-h4 pt-6 pb-4">
+          Development Features
+        </h4>
+        <p class="text-body-1 font-weight-light text--secondary">
+          We work on this project a lot so we wanted to make development a bit
+          easier.
         </p>
         <h6 class="text-h6 font-weight-light">
           SEO
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
-          We use Nuxt.js which allows us to server side render and client side
-          render content. This improves page load times and UX.
+          We built the app using Nuxt.js which allows us to server side render
+          (SSR) and client side render (CSR) content. We use SSR by defaut which
+          improves page load times and UX. When we need to use CSR we use Nuxt's
+          &lt;client-only&gt; tag.
         </p>
         <h6 class="text-h6 font-weight-light">
           Material UI
@@ -86,20 +104,20 @@
           Build automation
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
-          Automating the build process allows us to quickly deploy our updates
-          to the live website.
+          Automating the build process allows us to quickly build and deploy our
+          updates to the live website.
         </p>
         <h6 class="text-h6 font-weight-light">
           Reusable components
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
           We made reusable components to keep our calculators consistent. An
-          example is a layout component for the calculators. It gives us the
-          ability to customize the content while maintaining the same layout.
+          example is a layout component for our calculators. Using it lets us
+          customize the content while keeping the same layout.
         </p>
-        <h5 class="text-h5 font-weight-light pt-6 pb-4">
+        <h4 class="text-h4 font-weight-light pt-6 pb-4">
           Calculator Features
-        </h5>
+        </h4>
         <p class="text-body-1 font-weight-light text--secondary">
           We added some cool features to our calculators that you can enjoy.
         </p>
@@ -108,8 +126,8 @@
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
           Entering your age in advanced options shows you how old you will be
-          when you reach your goal. It also updates the axes on relevant graph
-          breakdowns to reflect age at each data point instead of years.
+          when you reach your goal. It also updates the graph breakdowns to
+          reflect age at each data point instead of years or months.
         </p>
         <h6 class="text-h6 font-weight-light">
           Yearly toggle
@@ -125,8 +143,8 @@
         </h6>
         <p class="text-body-1 font-weight-light text--secondary">
           When the calculator uses an annualized growth rate (AGR), you can
-          change it in advanced options. This lets you see how different AGRs
-          can affect your goal.
+          change it in advanced options. You can use it to see how different
+          AGRs will affect your goal.
         </p>
         <h6 class="text-h6 font-weight-light">
           Currency format
