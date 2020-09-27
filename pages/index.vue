@@ -26,7 +26,7 @@
 
 <script>
 import mainProject from '@/components/main-project/main-project.vue';
-import otherProjects from '@/components/other-projects.vue';
+import otherProjects from '@/components/other-projects/other-projects.vue';
 
 export default {
   data() {
