@@ -280,6 +280,14 @@ export default {
   head() {
     return {
       title: 'Anastasia Huff - Financially Financed',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'You can use the site to answer your personal finance questions. We have a collection of tools and calculators for you to use. When you use a calculator, you get a unique look into the scenario through graphs and breakdowns. Our goal is to help you make smarter financial decisions.',
+        },
+      ],
     };
   },
   components: {

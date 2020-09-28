@@ -163,6 +163,14 @@ export default {
   head() {
     return {
       title: 'Anastasia Huff - Survey Says',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Create surveys for people to answer. Complete surveys to see how others answered. See the results through different data visualizations.',
+        },
+      ],
     };
   },
   components: {

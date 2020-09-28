@@ -111,6 +111,14 @@ export default {
   head() {
     return {
       title: 'Anastasia Huff - Portfolio Site',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'This is my portfolio site to show some of my personal projects.',
+        },
+      ],
     };
   },
   components: {
