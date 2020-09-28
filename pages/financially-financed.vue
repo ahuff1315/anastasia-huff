@@ -59,7 +59,15 @@
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
           On the home page you will find the Compound Interest Timespan
-          calculator.
+          calculator. Or you can click
+          <a
+            class="d-inline-block"
+            href="https://financiallyfinanced.com/posts/ci-timespan"
+            target="_blank"
+          >
+            here
+          </a>
+          to go to the calculator page.
         </p>
         <p class="text-body-1 font-weight-light text--secondary">
           Now let me show you an example of how to use it. Lets say you have a
