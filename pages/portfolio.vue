@@ -42,17 +42,8 @@
         <div class="my-10 py-sm-6">
           <v-img
             :aspect-ratio="19 / 9"
-            src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1600034903/portfolio/portfolio-main_yblzzo.svg"
-          >
-            <template v-slot:placeholder>
-              <v-row class="fill-height ma-0" align="center" justify="center">
-                <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
+            src="https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854498/portfolio/portfolio-main_swgaai.png"
+          ></v-img>
         </div>
         <h4 class="text-h4 pb-4">
           Technologies
