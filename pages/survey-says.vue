@@ -131,31 +131,31 @@ export default {
           detail:
             'Survey says home screen displaying different posts and the ability to answer and view the data visualizations.',
           src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599937469/portfolio/survey-says-main_sicd8p.svg',
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854537/portfolio/survey-says-main_xtoiq6.png',
         },
         {
           detail:
             'Creating a new question and viewing the new question on the home screen.',
           src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599940183/portfolio/survey-says-create-question_emgbcp.svg',
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854530/portfolio/survey-says-create-question_tbxdiw.png',
         },
         {
           detail:
             'Landing screen with navigation options for login and signup.',
           src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599941540/portfolio/survey-says-start_qgtucu.svg',
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854523/portfolio/survey-says-start_pjic1d.png',
         },
         {
           detail:
             'History screen displaying previously answered questions and the account details screen.',
           src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943586/portfolio/survey-says-history_r2zae8.svg',
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854515/portfolio/survey-says-history_fmhddq.png',
         },
         {
           detail:
             'Search screen that allows you to search for specific surveys.',
           src:
-            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1599943631/portfolio/survey-says-search_jv5oez.svg',
+            'https://res.cloudinary.com/dxbppu0tw/image/upload/v1601854508/portfolio/survey-says-search_ngcglq.png',
         },
       ],
     };
